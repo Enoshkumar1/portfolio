@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Enosh Kumar | Portfolio</title>
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+
+<body>
+    <div id="preloader">
+        <img src="./css/assets/textures/preloader.gif" id="pre" alt="">
+    </div>
+    <div id="canvas-container">
+        <button class="startButton" id="toggleLights">
+            <div class="mybuttoninner">
+                <div class="mybuttoninner2">start</div>
+                <div class="mybuttoninner3">stop</div>
+            </div>
+        </button>
+        <h1 class="title">Start the Car</h1>
+    </div>
+
+    <div class="about" id="about">
+        <h1 class="intro" style="margin-bottom: 1rem;">My Intro</h1>
+        <div class="about_container">
+            <figure><img src="./css/assets/textures/DSC_1025.jpg" class="about_image" alt="about image"></figure>
+            <p>I am Enosh Kumar a Front End web developer with extensive knowledge of one year practise, in web
+                technologies and, delivering quality work.
+            </p>
+        </div>
+
+        <!-- my bio part -->
+
+        <div class="bio_container">
+
+            <div class="bio">
+                <h1>01</h1>
+                <p>Year<br />Experience</p>
+            </div>
+            <div class="bio">
+                <h1>05</h1>
+                <p>Projects<br />Completed</p>
+            </div>
+            <div class="bio">
+                <h1>05+</h1>
+                <p>Skills<br /> Learned</p>
+            </div>
+        </div>
+
+        <!-- cv button -->
+
+        <a class="cv_btn" href="./css/assets/Enosh Kumar - Resume.pdf" download>
+            <h3 class="download">Download CV</h3><img src="./css/assets/download.svg" />
+        </a>
+    </div>
+
+    <!-- Skills Section -->
+
+
+    <div class="skills_container" id="skills">
+        <h1 class="res">Skills</h1>
+        <div class="skill_content">
+
+            <div class="skills html">
+                <span class="skill ">HTML</span>
+                <span class="percent">90%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills css">
+                <span class="skill ">CSS</span>
+                <span class="percent">80%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills JS">
+                <span class="skill ">Javascript</span>
+                <span class="percent">50%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills JS">
+                <span class="skill ">Bootstarp</span>
+                <span class="percent">50%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills Node">
+                <span class="skill ">jQery & Ajax</span>
+                <span class="percent">40%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills Node">
+                <span class="skill ">PHP</span>
+                <span class="percent">40%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills three">
+                <span class="skill ">THREE JS</span>
+                <span class="percent">30%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+            <div class="skills JS">
+                <span class="skill ">GIT & GITHUB</span>
+                <span class="percent">50%</span>
+                <div class="progress"></div>
+                <div class="progress progress_2"></div>
+            </div>
+
+        </div>
+    </div>
+    <h1 class="contact_title">Contact Me</h1>
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form action="https://formspree.io/f/mjvqppoj" method="POST">
+        <div>
+            <label class="input_box">
+                Your email:
+                <input type="email" name="email">
+            </label>
+        </div>
+        <div>
+            <label class="input_box msg">
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+        </div>
+        <!-- your other form fields go here -->
+        <button class="form" type="submit">Send</button>
+    </form>
+    <button id="toggleLights">Toggle Lights</button>
+    <script src="https://unpkg.com/three@0.126.0/build/three.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/loaders/GLTFLoader.js"></script>
+    <!-- partial -->
+
+    </script><script  src="./main.js"></script>
+      
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+/* Example media query for small screens */
+@media (max-width: 600px) {
+    /* Adjust styles for smaller screens here */
+    body, html {
+      height: auto;
+      overflow-y: auto;
+    }
+    
+    .title {
+      font-size: 1vh;
+      left: 49%;
+    }
+  
+    .startButton {
+      font-size: 1vh;
+    }
+     /* about section */
+
+
+    .bio_container {
+      grid-template-columns: 1fr;
+      gap: 1rem
+    }
+
+  
+    /* Add more styles for other elements as needed */
+  }
+  
+/* Example media query for small screens */
+@media (max-width: 400px) {
+    /* Adjust styles for smaller screens here */
+    body, html {
+      height: auto;
+      overflow-y: auto;
+    }
+    
+    .title {
+      font-size: 1px;
+      left: unset;
+      width: 60%;
+      padding-left: 10px;
+      padding-bottom: 20px;
+    }
+
+  
+    .about_image{
+      font-size: 30px;
+      margin-left: -230px;
+    }
+
+    
+    /* Add more styles for other elements as needed */
+  }
+  
