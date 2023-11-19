@@ -74,7 +74,7 @@
 }
 .form-main .main-wrapper .form-wrapper .form-card .form-label {
   position: absolute;
-  left: 25px;
+  left: 35px;
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
