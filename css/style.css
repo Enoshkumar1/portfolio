@@ -16,11 +16,6 @@
   backdrop-filter: blur(5px);
   background-color: #ffffff1d;
 }
-@media screen and (max-width: 991px) {
-  .form-main .main-wrapper {
-    width: 70%;
-  }
-}
 @media screen and (max-width: 767px) {
   .form-main .main-wrapper {
     width: 90%;
