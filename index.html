@@ -115,24 +115,46 @@
             </div>
 
         </div>
-        <h1 class="contact_title">Contact Me</h1>
-    <!-- modify this form HTML and place wherever you want your form -->
-    <form action="https://formspree.io/f/mjvqppoj" method="POST">
-        <div>
-            <label class="input_box">
-                Your email:
-                <input type="email" name="email">
-            </label>
+        <div class="form-main">
+            <div class="main-wrapper">
+              <h2 class="form-head">Contact From</h2>
+              <form action="https://formspree.io/f/mjvqppoj" class="form-wrapper" method="POST">
+                <div class="form-card">
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="full_name"
+                    required="required"
+                  />
+                  <label class="form-label" for="full_name">Full Name</label>
+                </div>
+      
+                <div class="form-card">
+                  <input
+                    class="form-input"
+                    type="email"
+                    name="email"
+                    required="required"
+                  />
+                  <label class="form-label" for="email">Email</label>
+                </div>
+      
+                <div class="form-card">
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="message"
+                    required="required"
+                  />
+                  <label class="form-label"> Your message </label>
+                </div>
+      
+                <div class="btn-wrap">
+                  <button> Submit </button>
+                </div>
+              </form>
+            </div>
         </div>
-        <div>
-            <label class="input_box msg">
-                Your message:
-                <textarea name="message"></textarea>
-            </label>
-        </div>
-        <!-- your other form fields go here -->
-        <button class="form" type="submit">Send</button>
-    </form>
     </div>
     
     <button id="toggleLights">Toggle Lights</button>
