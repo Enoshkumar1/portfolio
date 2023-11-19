@@ -26,11 +26,6 @@
     width: 90%;
   }
 }
-@media screen and (max-width: 400px)
-  .form-main .main-wrapper {
-    margin-left: 15%;
-  }
-}
 .form-main .main-wrapper .form-head {
   line-height: 40px;
   font-weight: 600;
@@ -1031,7 +1026,9 @@ textarea{
   .container .hero {
       height: 70rem;
   }
-
+  .form-main .main-wrapper {
+    margin-left: 15%;
+  }
   .about {
     font-size: 1.5rem;
     margin-top: 20rem;
