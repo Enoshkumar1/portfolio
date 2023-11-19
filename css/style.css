@@ -74,7 +74,7 @@
 }
 .form-main .main-wrapper .form-wrapper .form-card .form-label {
   position: absolute;
-  left: 35px;
+  left: 15px;
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
@@ -448,12 +448,6 @@ a{
   -webkit-text-fill-color: transparent;
   font-size: 5vh;
   padding-top: 30px;
-}
-input{
-  width: 54%;
-  padding: 5px;
-  margin-left: 25px;
-  margin-top: 20px;
 }
 .input_box{
   font-size: 25px;
